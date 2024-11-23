@@ -1,0 +1,24 @@
+.header {
+  background-color: #002fb1;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.logo {
+  height: 50px; /* Ajuste o tamanho conforme necessário */
+  margin-right: 20px; /* Espaçamento entre a logo e a barra de busca */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Espaço uniforme entre os elementos */
+}
+
